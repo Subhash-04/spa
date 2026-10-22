@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="View the Spardha 2K26 website."
+    />
+    <title>Spardha 2K26</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #0b1020;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        overflow: hidden;
+      }
+
+      .site-frame {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+
+      .fallback {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+        color: #fff;
+        text-align: center;
+        background: #0b1020;
+      }
+
+      .fallback__content {
+        max-width: 32rem;
+      }
+
+      .fallback__link {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.75rem 1rem;
+        color: #0b1020;
+        font-weight: 700;
+        text-decoration: none;
+        background: #fff;
+        border-radius: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe
+      class="site-frame"
+      src="https://spardha2k26.vercel.app/"
+      title="Spardha 2K26 website"
+      loading="eager"
+      allow="fullscreen"
+      referrerpolicy="strict-origin-when-cross-origin"
+    >
+      <div class="fallback">
+        <div class="fallback__content">
+          <h1>Spardha 2K26</h1>
+          <p>
+            This browser cannot display the embedded website. Open it directly
+            using the button below.
+          </p>
+          <a
+            class="fallback__link"
+            href="https://spardha2k26.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open Spardha 2K26
+          </a>
+        </div>
+      </div>
+    </iframe>
+  </body>
+</html>
